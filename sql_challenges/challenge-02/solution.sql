@@ -39,3 +39,12 @@ FROM buildings b
 LEFT JOIN employees e
 ON b.building_name = e.building
 GROUP BY e.role, b.building_name;
+
+--Data Lemur
+
+SELECT p.page_id 
+FROM pages p
+LEFT JOIN page_likes pl
+ON p.page_id = pl.page_id
+WHERE pl.user_id IS NULL
+ORDER BY page_id;
