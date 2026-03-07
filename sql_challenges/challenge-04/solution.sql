@@ -69,3 +69,5 @@ INNER JOIN department AS d
 WHERE rs.ranking <= 3
 ORDER BY d.department_name ASC, rs.salary DESC, rs.name ASC;
 
+
+-- Review update
