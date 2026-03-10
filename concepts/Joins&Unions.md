@@ -28,3 +28,6 @@ Imagine a **Books** table and an **Orders** table. Here is how different Joins a
 | **FULL JOIN**  | Everything from both tables. If a book hasn't sold, it still shows it all.      |
 | **CROSS JOIN** | Every possible combination (e.g., 10 books x 10 customers = 100 rows).          |
 | **SELF JOIN**  | A table joining itself. Used for hierarchies (e.g., Managers in Employee lists).|
+
+
+-- Review update
