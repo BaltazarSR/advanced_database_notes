@@ -41,3 +41,6 @@ To understand how tables "talk" to each other, let’s look at a Bookstore datab
     * **One-to-Many:** This is the most common. One book (PK) can appear in many different orders (FK).
     * **Many-to-Many:** Like Students and Classes; one student has many classes, and one class has many students. This usually requires a third "junction table" to link them.
 * **Constraints:** Rules applied to columns (e.g., `NOT NULL` means the field cannot be left empty, `UNIQUE` means no duplicates allowed).
+
+
+-- Review update

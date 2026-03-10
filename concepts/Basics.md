@@ -165,3 +165,6 @@ It is a quick way to view all data in a table.
 
 ## Example
     SELECT * FROM north_american_cities;
+
+
+-- Review update
