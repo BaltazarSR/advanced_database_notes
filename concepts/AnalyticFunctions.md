@@ -300,3 +300,5 @@ SELECT b.*,
        ) actual_last_weight
 FROM bricks b;
 ```
+
+-- Review update
