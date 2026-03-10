@@ -30,3 +30,6 @@ Aggregates are rarely used alone; they usually hang out with these two clauses t
 
 * **GROUP BY:** This is the "By" clause. It tells SQL how to slice the data before crunching it. Instead of the total sum of *all* sales, you get the sum **BY** category (e.g., Electronics vs. Clothing).
 * **HAVING:** This is the "Filter" for your results. Since you can't use `WHERE` on a sum you just calculated, you use `HAVING` to say, "Only show me categories where the total sales are over $1,000."
+
+
+-- Review update
